@@ -34,7 +34,7 @@ An interactive web-based chatbot that helps users explore products like phones, 
 ### 1. Clone the repo
 
 ```bash
-git clone 
+git clone https://github.com/pritharai/Uplyft
 cd ecommerce-chatbot
 
 cd backend
