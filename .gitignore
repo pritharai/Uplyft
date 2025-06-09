@@ -3,3 +3,4 @@ venv2
 node_modules
 venv
 __pycache__
+.gitignore

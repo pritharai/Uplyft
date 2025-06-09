@@ -1,0 +1,6 @@
+Flask==2.3.2                    # Core framework
+Flask-Cors==3.0.10              # For CORS support (used via `CORS(app)`)
+Flask-JWT-Extended==4.6.0       # For JWT-based authentication
+Flask-SQLAlchemy==3.1.1         # ORM for database operations
+Werkzeug==2.3.6                 # For password hashing (generate_password_hash, check_password_hash)
+python-dotenv==1.0.0            # (optional but useful for environment variables)

@@ -20,7 +20,7 @@ function App() {
         >
           Logout
         </button>
-        <Chatbot /> {/* ✅ Show chatbot instead of welcome message */}
+        <Chatbot /> 
       </div>
     );
   }
