@@ -14,7 +14,7 @@ with app.app_context():
             brand="Samsung",
             price=14999,
             description="A budget phone with AMOLED display.",
-            image_url="https://kirtisales.in/wp-content/uploads/2022/09/SAMSUNG-M326BI-M32-5G-6-128-75.jpg"
+            image_url="http://localhost:5000/static/images/download.jpeg"
         ),
         Product(
             name="HP Pavilion Laptop",
