@@ -3,8 +3,6 @@ from app import db, Product, app
 with app.app_context():
     db.create_all()
 
-  
-
 
     # Add sample products
     products = [
@@ -22,7 +20,7 @@ with app.app_context():
             brand="HP",
             price=55999,
             description="Great for work and gaming.",
-            image_url="https://via.placeholder.com/150"
+            image_url="http://localhost:5000/static/images/pavillion.webp"
         ),
         Product(
             name="Sony Headphones WH-CH510",
@@ -30,7 +28,7 @@ with app.app_context():
             brand="Sony",
             price=2999,
             description="Wireless Bluetooth Headphones",
-            image_url="https://via.placeholder.com/150"
+            image_url="http://localhost:5000/static/images/sony.webp"
         ),
         # Add more as needed...
     ]
